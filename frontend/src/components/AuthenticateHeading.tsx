@@ -5,7 +5,7 @@ export const AuthenticateHeading = ({type}: { type: "signup" | "signin"}) => {
             {type === "signup" ? <div>Create an Account</div> : <div >Login to Your Account</div>}
         </div>
         <div className="">
-            {type=== "signup" ? <div>Already have an account? <Link className="underline mx-1" to={'/signin'}>Sign-in</Link></div> : <div>Don't have an account?<Link className="underline mx-1" to={'/signup'}>Sign-up</Link></div>}
+            {type=== "signup" ? <div>Already have an account? <Link className="underline mx-1" to={'/'}>Sign-in</Link></div> : <div>Don't have an account?<Link className="underline mx-1" to={'/signup'}>Sign-up</Link></div>}
         </div>
     </div>
 }
