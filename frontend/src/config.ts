@@ -1,0 +1,1 @@
+export const BACKEND_URL = "https://backend.bilal01mech.workers.dev";
